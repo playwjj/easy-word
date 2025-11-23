@@ -289,9 +289,9 @@ body {
   }
 
   #app {
-    padding: 16px 12px;
-    padding-top: env(safe-area-inset-top, 16px);
-    padding-bottom: env(safe-area-inset-bottom, 16px);
+    padding: 24px 12px;
+    padding-top: calc(env(safe-area-inset-top, 0px) + 24px);
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 24px);
   }
 
   #word-list-nav {
