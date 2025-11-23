@@ -2,6 +2,160 @@ import { wordLists, getWordListById } from './data/index.js'
 
 // 当前显示的单词列表ID
 let currentListId = null
+
+// 自然拼读音节着色
+function colorizeWord(text) {
+  // 处理包含空格的短语（如 "a banana"）
+  return text.split(' ').map(word => colorizeWordPart(word)).join(' ')
+}
+
+function colorizeWordPart(word) {
+  if (!word) return ''
+
+  // 定义发音组合（按优先级排序，长的在前）
+  const phonicsPatterns = [
+    // 元音组合
+    { pattern: /ough/gi, type: 'vowel-combo' },
+    { pattern: /tion/gi, type: 'vowel-combo' },
+    { pattern: /sion/gi, type: 'vowel-combo' },
+    { pattern: /eigh/gi, type: 'vowel-combo' },
+    { pattern: /ight/gi, type: 'vowel-combo' },
+    { pattern: /augh/gi, type: 'vowel-combo' },
+    { pattern: /ould/gi, type: 'vowel-combo' },
+    { pattern: /ious/gi, type: 'vowel-combo' },
+    { pattern: /eous/gi, type: 'vowel-combo' },
+    { pattern: /eau/gi, type: 'vowel-combo' },
+    { pattern: /oo/gi, type: 'vowel-combo' },
+    { pattern: /ee/gi, type: 'vowel-combo' },
+    { pattern: /ea/gi, type: 'vowel-combo' },
+    { pattern: /ai/gi, type: 'vowel-combo' },
+    { pattern: /ay/gi, type: 'vowel-combo' },
+    { pattern: /oa/gi, type: 'vowel-combo' },
+    { pattern: /ow/gi, type: 'vowel-combo' },
+    { pattern: /ou/gi, type: 'vowel-combo' },
+    { pattern: /oi/gi, type: 'vowel-combo' },
+    { pattern: /oy/gi, type: 'vowel-combo' },
+    { pattern: /au/gi, type: 'vowel-combo' },
+    { pattern: /aw/gi, type: 'vowel-combo' },
+    { pattern: /ew/gi, type: 'vowel-combo' },
+    { pattern: /ue/gi, type: 'vowel-combo' },
+    { pattern: /ui/gi, type: 'vowel-combo' },
+    { pattern: /ie/gi, type: 'vowel-combo' },
+    { pattern: /ei/gi, type: 'vowel-combo' },
+
+    // 辅音组合
+    { pattern: /tch/gi, type: 'consonant-combo' },
+    { pattern: /dge/gi, type: 'consonant-combo' },
+    { pattern: /sch/gi, type: 'consonant-combo' },
+    { pattern: /scr/gi, type: 'consonant-combo' },
+    { pattern: /spr/gi, type: 'consonant-combo' },
+    { pattern: /spl/gi, type: 'consonant-combo' },
+    { pattern: /str/gi, type: 'consonant-combo' },
+    { pattern: /squ/gi, type: 'consonant-combo' },
+    { pattern: /thr/gi, type: 'consonant-combo' },
+    { pattern: /chr/gi, type: 'consonant-combo' },
+    { pattern: /ph/gi, type: 'consonant-combo' },
+    { pattern: /ch/gi, type: 'consonant-combo' },
+    { pattern: /sh/gi, type: 'consonant-combo' },
+    { pattern: /th/gi, type: 'consonant-combo' },
+    { pattern: /wh/gi, type: 'consonant-combo' },
+    { pattern: /ck/gi, type: 'consonant-combo' },
+    { pattern: /ng/gi, type: 'consonant-combo' },
+    { pattern: /nk/gi, type: 'consonant-combo' },
+    { pattern: /gh/gi, type: 'consonant-combo' },
+    { pattern: /wr/gi, type: 'consonant-combo' },
+    { pattern: /kn/gi, type: 'consonant-combo' },
+    { pattern: /gn/gi, type: 'consonant-combo' },
+    { pattern: /mb/gi, type: 'consonant-combo' },
+    { pattern: /bl/gi, type: 'consonant-combo' },
+    { pattern: /cl/gi, type: 'consonant-combo' },
+    { pattern: /fl/gi, type: 'consonant-combo' },
+    { pattern: /gl/gi, type: 'consonant-combo' },
+    { pattern: /pl/gi, type: 'consonant-combo' },
+    { pattern: /sl/gi, type: 'consonant-combo' },
+    { pattern: /br/gi, type: 'consonant-combo' },
+    { pattern: /cr/gi, type: 'consonant-combo' },
+    { pattern: /dr/gi, type: 'consonant-combo' },
+    { pattern: /fr/gi, type: 'consonant-combo' },
+    { pattern: /gr/gi, type: 'consonant-combo' },
+    { pattern: /pr/gi, type: 'consonant-combo' },
+    { pattern: /tr/gi, type: 'consonant-combo' },
+    { pattern: /sc/gi, type: 'consonant-combo' },
+    { pattern: /sk/gi, type: 'consonant-combo' },
+    { pattern: /sm/gi, type: 'consonant-combo' },
+    { pattern: /sn/gi, type: 'consonant-combo' },
+    { pattern: /sp/gi, type: 'consonant-combo' },
+    { pattern: /st/gi, type: 'consonant-combo' },
+    { pattern: /sw/gi, type: 'consonant-combo' },
+    { pattern: /tw/gi, type: 'consonant-combo' },
+
+    // R控制元音
+    { pattern: /ar/gi, type: 'r-controlled' },
+    { pattern: /er/gi, type: 'r-controlled' },
+    { pattern: /ir/gi, type: 'r-controlled' },
+    { pattern: /or/gi, type: 'r-controlled' },
+    { pattern: /ur/gi, type: 'r-controlled' },
+
+    // 单个元音
+    { pattern: /[aeiou]/gi, type: 'vowel' },
+
+    // 半元音y（在词尾发元音）
+    { pattern: /y$/gi, type: 'vowel' },
+
+    // 辅音
+    { pattern: /[bcdfghjklmnpqrstvwxyz]/gi, type: 'consonant' }
+  ]
+
+  // 标记每个字符的类型
+  const chars = word.split('')
+  const types = new Array(chars.length).fill(null)
+
+  // 用一个临时字符串来跟踪已处理的位置
+  let processed = word.toLowerCase()
+
+  for (const { pattern, type } of phonicsPatterns) {
+    let match
+    const regex = new RegExp(pattern.source, 'gi')
+    while ((match = regex.exec(word)) !== null) {
+      const start = match.index
+      const end = start + match[0].length
+
+      // 检查这个位置是否已经被处理
+      let alreadyProcessed = false
+      for (let i = start; i < end; i++) {
+        if (types[i] !== null) {
+          alreadyProcessed = true
+          break
+        }
+      }
+
+      if (!alreadyProcessed) {
+        for (let i = start; i < end; i++) {
+          types[i] = type
+        }
+      }
+    }
+  }
+
+  // 生成带颜色的HTML
+  let html = ''
+  let i = 0
+  while (i < chars.length) {
+    const type = types[i]
+    let j = i + 1
+
+    // 找到连续相同类型的字符
+    while (j < chars.length && types[j] === type) {
+      j++
+    }
+
+    const segment = chars.slice(i, j).join('')
+    html += `<span class="phonics-${type || 'consonant'}">${segment}</span>`
+    i = j
+  }
+
+  return html
+}
 // 是否隐藏释义模式
 let hideMeaningMode = false
 
@@ -193,7 +347,7 @@ function showWordList(listId) {
         ${list.words.map((word, index) => `
           <div class="word-row ${isWordMarked(listId, word.word) ? 'marked' : ''}" data-word="${word.word}">
             <span class="col-index">${index + 1}</span>
-            <span class="col-word">${word.word}</span>
+            <span class="col-word">${colorizeWord(word.word)}</span>
             <span class="col-meaning ${hideMeaningMode ? 'hidden-meaning' : ''}" data-meaning="${word.meaning}">${word.meaning}</span>
           </div>
         `).join('')}
