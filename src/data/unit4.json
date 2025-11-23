@@ -1,0 +1,112 @@
+{
+  "id": "unit4",
+  "name": "Unit 4",
+  "description": "学校用品",
+  "words": [
+    {
+      "word": "school",
+      "phonetic": "",
+      "meaning": "学校"
+    },
+    {
+      "word": "thing",
+      "phonetic": "",
+      "meaning": "东西，物"
+    },
+    {
+      "word": "pencil",
+      "phonetic": "",
+      "meaning": "铅笔"
+    },
+    {
+      "word": "case",
+      "phonetic": "",
+      "meaning": "盒子"
+    },
+    {
+      "word": "pencil case",
+      "phonetic": "",
+      "meaning": "笔盒"
+    },
+    {
+      "word": "pen",
+      "phonetic": "",
+      "meaning": "钢笔"
+    },
+    {
+      "word": "eraser",
+      "phonetic": "",
+      "meaning": "橡皮"
+    },
+    {
+      "word": "schoolbag",
+      "phonetic": "",
+      "meaning": "书包"
+    },
+    {
+      "word": "ruler",
+      "phonetic": "",
+      "meaning": "尺子，直尺"
+    },
+    {
+      "word": "book",
+      "phonetic": "",
+      "meaning": "书籍"
+    },
+    {
+      "word": "home",
+      "phonetic": "",
+      "meaning": "到家，回家"
+    },
+    {
+      "word": "where",
+      "phonetic": "",
+      "meaning": "在哪里"
+    },
+    {
+      "word": "picture",
+      "phonetic": "",
+      "meaning": "图画"
+    },
+    {
+      "word": "on",
+      "phonetic": "",
+      "meaning": "在……上面"
+    },
+    {
+      "word": "wall",
+      "phonetic": "",
+      "meaning": "墙"
+    },
+    {
+      "word": "paper",
+      "phonetic": "",
+      "meaning": "纸"
+    },
+    {
+      "word": "open",
+      "phonetic": "",
+      "meaning": "打开"
+    },
+    {
+      "word": "take",
+      "phonetic": "",
+      "meaning": "拿"
+    },
+    {
+      "word": "take out",
+      "phonetic": "",
+      "meaning": "拿出"
+    },
+    {
+      "word": "rope",
+      "phonetic": "",
+      "meaning": "绳索"
+    },
+    {
+      "word": "skipping rope",
+      "phonetic": "",
+      "meaning": "跳绳"
+    }
+  ]
+}

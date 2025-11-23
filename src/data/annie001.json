@@ -1,0 +1,57 @@
+{
+  "id": "annie001",
+  "name": "Annie001",
+  "description": "水果和食物",
+  "words": [
+    {
+      "word": "a banana",
+      "phonetic": "",
+      "meaning": "一根香蕉"
+    },
+    {
+      "word": "an egg",
+      "phonetic": "",
+      "meaning": "一个鸡蛋"
+    },
+    {
+      "word": "a pear",
+      "phonetic": "",
+      "meaning": "一个梨"
+    },
+    {
+      "word": "a peach",
+      "phonetic": "",
+      "meaning": "一个桃子"
+    },
+    {
+      "word": "a sandwich",
+      "phonetic": "",
+      "meaning": "一个三明治"
+    },
+    {
+      "word": "a mango",
+      "phonetic": "",
+      "meaning": "一个芒果"
+    },
+    {
+      "word": "a potato",
+      "phonetic": "",
+      "meaning": "一个土豆"
+    },
+    {
+      "word": "a tomato",
+      "phonetic": "",
+      "meaning": "一个番茄"
+    },
+    {
+      "word": "a cherry",
+      "phonetic": "",
+      "meaning": "一个樱桃"
+    },
+    {
+      "word": "a strawberry",
+      "phonetic": "",
+      "meaning": "一个草莓"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "annie002",
+  "name": "Annie002",
+  "description": "规则和行为",
+  "words": [
+    {
+      "word": "keep quiet",
+      "phonetic": "",
+      "meaning": "保持安静"
+    },
+    {
+      "word": "sit still",
+      "phonetic": "",
+      "meaning": "坐好不动"
+    },
+    {
+      "word": "line up",
+      "phonetic": "",
+      "meaning": "排队"
+    },
+    {
+      "word": "keep off the grass",
+      "phonetic": "",
+      "meaning": "勿踏草坪"
+    },
+    {
+      "word": "wait for your turn",
+      "phonetic": "",
+      "meaning": "等待轮到你"
+    },
+    {
+      "word": "climb",
+      "phonetic": "",
+      "meaning": "攀爬"
+    },
+    {
+      "word": "pick the flowers",
+      "phonetic": "",
+      "meaning": "摘花"
+    },
+    {
+      "word": "litter",
+      "phonetic": "",
+      "meaning": "乱扔垃圾"
+    },
+    {
+      "word": "spit",
+      "phonetic": "",
+      "meaning": "吐痰"
+    }
+  ]
+}

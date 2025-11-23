@@ -1,0 +1,197 @@
+{
+  "id": "unit3",
+  "name": "Unit 3",
+  "description": "数字和动物",
+  "words": [
+    {
+      "word": "number",
+      "phonetic": "",
+      "meaning": "数字"
+    },
+    {
+      "word": "fun",
+      "phonetic": "",
+      "meaning": "有趣的"
+    },
+    {
+      "word": "tiger",
+      "phonetic": "",
+      "meaning": "老虎"
+    },
+    {
+      "word": "jump",
+      "phonetic": "",
+      "meaning": "跳，跃"
+    },
+    {
+      "word": "do",
+      "phonetic": "",
+      "meaning": "做"
+    },
+    {
+      "word": "ten",
+      "phonetic": "",
+      "meaning": "十"
+    },
+    {
+      "word": "nine",
+      "phonetic": "",
+      "meaning": "九"
+    },
+    {
+      "word": "eight",
+      "phonetic": "",
+      "meaning": "八"
+    },
+    {
+      "word": "seven",
+      "phonetic": "",
+      "meaning": "七"
+    },
+    {
+      "word": "six",
+      "phonetic": "",
+      "meaning": "六"
+    },
+    {
+      "word": "five",
+      "phonetic": "",
+      "meaning": "五"
+    },
+    {
+      "word": "four",
+      "phonetic": "",
+      "meaning": "四"
+    },
+    {
+      "word": "three",
+      "phonetic": "",
+      "meaning": "三"
+    },
+    {
+      "word": "two",
+      "phonetic": "",
+      "meaning": "二"
+    },
+    {
+      "word": "one",
+      "phonetic": "",
+      "meaning": "一"
+    },
+    {
+      "word": "duck",
+      "phonetic": "",
+      "meaning": "鸭子"
+    },
+    {
+      "word": "show",
+      "phonetic": "",
+      "meaning": "节目"
+    },
+    {
+      "word": "about",
+      "phonetic": "",
+      "meaning": "大约"
+    },
+    {
+      "word": "be about to do sth",
+      "phonetic": "",
+      "meaning": "即将做某事"
+    },
+    {
+      "word": "dad",
+      "phonetic": "",
+      "meaning": "爸爸"
+    },
+    {
+      "word": "please",
+      "phonetic": "",
+      "meaning": "请"
+    },
+    {
+      "word": "hurry",
+      "phonetic": "",
+      "meaning": "赶紧，匆忙"
+    },
+    {
+      "word": "up",
+      "phonetic": "",
+      "meaning": "向上，往上"
+    },
+    {
+      "word": "hurry up",
+      "phonetic": "",
+      "meaning": "快点"
+    },
+    {
+      "word": "wrong",
+      "phonetic": "",
+      "meaning": "有问题的"
+    },
+    {
+      "word": "see",
+      "phonetic": "",
+      "meaning": "看见，看到"
+    },
+    {
+      "word": "many",
+      "phonetic": "",
+      "meaning": "许多"
+    },
+    {
+      "word": "how many",
+      "phonetic": "",
+      "meaning": "多少"
+    },
+    {
+      "word": "get",
+      "phonetic": "",
+      "meaning": "移动，去"
+    },
+    {
+      "word": "out",
+      "phonetic": "",
+      "meaning": "向外"
+    },
+    {
+      "word": "get out",
+      "phonetic": "",
+      "meaning": "出去"
+    },
+    {
+      "word": "have",
+      "phonetic": "",
+      "meaning": "进行"
+    },
+    {
+      "word": "have a look",
+      "phonetic": "",
+      "meaning": "看一下"
+    },
+    {
+      "word": "help",
+      "phonetic": "",
+      "meaning": "帮助"
+    },
+    {
+      "word": "great",
+      "phonetic": "",
+      "meaning": "极好的"
+    },
+    {
+      "word": "late",
+      "phonetic": "",
+      "meaning": "迟到的"
+    },
+    {
+      "word": "safe",
+      "phonetic": "",
+      "meaning": "安全的"
+    },
+    {
+      "word": "call",
+      "phonetic": "",
+      "meaning": "（给……）打电话"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "unit5",
+  "name": "Unit 5",
+  "description": "教室和位置",
+  "words": [
+    {
+      "word": "classroom",
+      "phonetic": "",
+      "meaning": "教室"
+    },
+    {
+      "word": "blackboard",
+      "phonetic": "",
+      "meaning": "黑板"
+    },
+    {
+      "word": "door",
+      "phonetic": "",
+      "meaning": "门"
+    },
+    {
+      "word": "window",
+      "phonetic": "",
+      "meaning": "窗户"
+    },
+    {
+      "word": "desk",
+      "phonetic": "",
+      "meaning": "书桌"
+    },
+    {
+      "word": "chair",
+      "phonetic": "",
+      "meaning": "椅子"
+    },
+    {
+      "word": "floor",
+      "phonetic": "",
+      "meaning": "地面"
+    },
+    {
+      "word": "ball",
+      "phonetic": "",
+      "meaning": "球"
+    },
+    {
+      "word": "behind",
+      "phonetic": "",
+      "meaning": "在……后面"
+    },
+    {
+      "word": "front",
+      "phonetic": "",
+      "meaning": "前面"
+    },
+    {
+      "word": "of",
+      "phonetic": "",
+      "meaning": "（用于指某物与某地或某物之间的位置关系）"
+    },
+    {
+      "word": "in front of",
+      "phonetic": "",
+      "meaning": "在……前面"
+    },
+    {
+      "word": "beside",
+      "phonetic": "",
+      "meaning": "在……旁边"
+    },
+    {
+      "word": "under",
+      "phonetic": "",
+      "meaning": "在……下面"
+    },
+    {
+      "word": "now",
+      "phonetic": "",
+      "meaning": "现在"
+    },
+    {
+      "word": "class",
+      "phonetic": "",
+      "meaning": "班，班级"
+    },
+    {
+      "word": "wow",
+      "phonetic": "",
+      "meaning": "哇，呀"
+    },
+    {
+      "word": "next",
+      "phonetic": "",
+      "meaning": "紧接下来；随后"
+    },
+    {
+      "word": "keep",
+      "phonetic": "",
+      "meaning": "饲养"
+    },
+    {
+      "word": "with",
+      "phonetic": "",
+      "meaning": "和……一起"
+    },
+    {
+      "word": "over",
+      "phonetic": "",
+      "meaning": "结束"
+    },
+    {
+      "word": "clean",
+      "phonetic": "",
+      "meaning": "（使）清洁，清理"
+    },
+    {
+      "word": "sweep",
+      "phonetic": "",
+      "meaning": "打扫，清扫"
+    },
+    {
+      "word": "put",
+      "phonetic": "",
+      "meaning": "放，放置"
+    },
+    {
+      "word": "tomorrow",
+      "phonetic": "",
+      "meaning": "明天"
+    },
+    {
+      "word": "they",
+      "phonetic": "",
+      "meaning": "他们；她们；它们"
+    }
+  ]
+}

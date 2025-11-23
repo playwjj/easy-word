@@ -1,0 +1,62 @@
+{
+  "id": "annie003",
+  "name": "Annie 003",
+  "description": "学校场所",
+  "words": [
+    {
+      "word": "library",
+      "phonetic": "",
+      "meaning": "图书馆"
+    },
+    {
+      "word": "art room",
+      "phonetic": "",
+      "meaning": "美术室"
+    },
+    {
+      "word": "computer room",
+      "phonetic": "",
+      "meaning": "电脑室"
+    },
+    {
+      "word": "music room",
+      "phonetic": "",
+      "meaning": "音乐室"
+    },
+    {
+      "word": "classroom",
+      "phonetic": "",
+      "meaning": "教室"
+    },
+    {
+      "word": "toilet",
+      "phonetic": "",
+      "meaning": "厕所，洗手间"
+    },
+    {
+      "word": "hall",
+      "phonetic": "",
+      "meaning": "大厅，礼堂"
+    },
+    {
+      "word": "playground",
+      "phonetic": "",
+      "meaning": "操场"
+    },
+    {
+      "word": "tuck shop",
+      "phonetic": "",
+      "meaning": "小卖部"
+    },
+    {
+      "word": "lift",
+      "phonetic": "",
+      "meaning": "电梯"
+    },
+    {
+      "word": "garden",
+      "phonetic": "",
+      "meaning": "花园"
+    }
+  ]
+}
