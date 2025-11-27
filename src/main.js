@@ -1,4 +1,5 @@
 import { wordLists, getWordListById } from './data/index.js'
+import speechManager from './speech.js'
 
 // 当前显示的单词列表ID
 let currentListId = null
@@ -347,7 +348,16 @@ function showWordList(listId) {
         ${list.words.map((word, index) => `
           <div class="word-row ${isWordMarked(listId, word.word) ? 'marked' : ''}" data-word="${word.word}">
             <span class="col-index">${index + 1}</span>
-            <span class="col-word">${colorizeWord(word.word)}</span>
+            <span class="col-word">
+              <span class="word-text">${colorizeWord(word.word)}</span>
+              <button class="speak-btn" data-word="${word.word}" title="点击发音" aria-label="朗读单词 ${word.word}">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                </svg>
+              </button>
+            </span>
             <span class="col-meaning ${hideMeaningMode ? 'hidden-meaning' : ''}" data-meaning="${word.meaning}">${word.meaning}</span>
           </div>
         `).join('')}
@@ -378,6 +388,28 @@ function showWordList(listId) {
   // 添加单词行点击事件
   container.querySelectorAll('.word-row').forEach(row => {
     const meaningEl = row.querySelector('.col-meaning')
+    const speakBtn = row.querySelector('.speak-btn')
+
+    // 点击发音按钮
+    if (speakBtn) {
+      speakBtn.addEventListener('click', async (e) => {
+        e.stopPropagation()
+        const word = e.target.dataset.word || e.target.closest('.speak-btn').dataset.word
+
+        // 添加播放动画
+        speakBtn.classList.add('speaking')
+
+        try {
+          await speechManager.speak(word)
+        } catch (error) {
+          console.error('发音失败:', error)
+          // 可以添加错误提示
+          showToast('发音失败，请检查浏览器是否支持语音功能', 'error')
+        } finally {
+          speakBtn.classList.remove('speaking')
+        }
+      })
+    }
 
     // 点击释义显示（自测模式）
     meaningEl.addEventListener('click', (e) => {
@@ -390,11 +422,34 @@ function showWordList(listId) {
     // 点击行标记掌握
     row.addEventListener('click', (e) => {
       if (e.target === meaningEl) return
+      if (e.target.classList.contains('speak-btn') || e.target.closest('.speak-btn')) return
       const word = row.dataset.word
       const isMarked = toggleWordMark(listId, word)
       row.classList.toggle('marked', isMarked)
     })
   })
+}
+
+// 简单的提示框功能
+function showToast(message, type = 'info') {
+  const existingToast = document.querySelector('.toast')
+  if (existingToast) {
+    existingToast.remove()
+  }
+
+  const toast = document.createElement('div')
+  toast.className = `toast toast-${type}`
+  toast.textContent = message
+  document.body.appendChild(toast)
+
+  // 添加显示动画
+  setTimeout(() => toast.classList.add('show'), 10)
+
+  // 3秒后移除
+  setTimeout(() => {
+    toast.classList.remove('show')
+    setTimeout(() => toast.remove(), 300)
+  }, 3000)
 }
 
 // 启动应用
