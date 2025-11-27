@@ -463,8 +463,6 @@ copies or substantial portions of the Software.
 
 ## 💬 联系与支持
 
-- 📮 提交 Issue: [GitHub Issues](https://github.com/your-username/easy-word/issues)
-- 📧 邮件联系: your-email@example.com
 - 🌟 如果觉得有用，欢迎给项目点个 Star！
 
 ---
