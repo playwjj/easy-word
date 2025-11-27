@@ -247,6 +247,9 @@ function init() {
   hideMeaningMode = getHideMeaningMode()
   renderNavigation()
 
+  // 检查语音合成支持
+  checkSpeechSupport()
+
   // 优先显示上次打开的列表
   const lastListId = getLastListId()
   const targetListId = lastListId && getWordListById(lastListId)
@@ -255,6 +258,17 @@ function init() {
 
   if (targetListId) {
     showWordList(targetListId)
+  }
+}
+
+// 检查浏览器是否支持语音合成
+function checkSpeechSupport() {
+  if (!('speechSynthesis' in window)) {
+    console.warn('当前浏览器不支持语音合成功能')
+    // 可以选择隐藏发音按钮或显示提示
+    // showToast('您的浏览器不支持语音功能', 'warning')
+  } else {
+    console.log('✅ 语音合成功能已就绪')
   }
 }
 
