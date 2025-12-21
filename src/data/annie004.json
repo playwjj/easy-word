@@ -1,0 +1,52 @@
+{
+  "id": "annie004",
+  "name": "Annie 004",
+  "description": "感受与行为",
+  "words": [
+    {
+      "word": "bored",
+      "phonetic": "",
+      "meaning": "无聊的"
+    },
+    {
+      "word": "watch TV/a cartoon",
+      "phonetic": "",
+      "meaning": "看电视/看动画片"
+    },
+    {
+      "word": "read comics",
+      "phonetic": "",
+      "meaning": "看漫画"
+    },
+    {
+      "word": "tired",
+      "phonetic": "",
+      "meaning": "累的"
+    },
+    {
+      "word": "take a rest",
+      "phonetic": "",
+      "meaning": "休息一下"
+    },
+    {
+      "word": "hungry",
+      "phonetic": "",
+      "meaning": "饿的"
+    },
+    {
+      "word": "eat some biscuits/cakes/bread",
+      "phonetic": "",
+      "meaning": "吃一些饼干/蛋糕/面包"
+    },
+    {
+      "word": "thirsty",
+      "phonetic": "",
+      "meaning": "渴的"
+    },
+    {
+      "word": "drink some water/juice/milk",
+      "phonetic": "",
+      "meaning": "喝一些水/果汁/牛奶"
+    }
+  ]
+}
