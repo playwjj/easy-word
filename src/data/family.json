@@ -1,0 +1,52 @@
+{
+  "id": "family",
+  "name": "Family",
+  "description": "家庭成员",
+  "words": [
+    {
+      "word": "mum",
+      "phonetic": "",
+      "meaning": "妈妈"
+    },
+    {
+      "word": "brother",
+      "phonetic": "",
+      "meaning": "兄弟"
+    },
+    {
+      "word": "grandpa",
+      "phonetic": "",
+      "meaning": "爷爷"
+    },
+    {
+      "word": "uncle",
+      "phonetic": "",
+      "meaning": "叔叔/舅舅"
+    },
+    {
+      "word": "me",
+      "phonetic": "",
+      "meaning": "我"
+    },
+    {
+      "word": "sister",
+      "phonetic": "",
+      "meaning": "姐妹"
+    },
+    {
+      "word": "grandma",
+      "phonetic": "",
+      "meaning": "奶奶/外婆"
+    },
+    {
+      "word": "aunt",
+      "phonetic": "",
+      "meaning": "阿姨/姑姑"
+    },
+    {
+      "word": "dad",
+      "phonetic": "",
+      "meaning": "爸爸"
+    }
+  ]
+}
