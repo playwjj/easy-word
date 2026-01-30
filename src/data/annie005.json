@@ -1,0 +1,47 @@
+{
+  "id": "annie005",
+  "name": "Annie005",
+  "description": "交通方式",
+  "words": [
+    {
+      "word": "on foot",
+      "phonetic": "",
+      "meaning": "步行"
+    },
+    {
+      "word": "by bus",
+      "phonetic": "",
+      "meaning": "乘公共汽车"
+    },
+    {
+      "word": "by minibus",
+      "phonetic": "",
+      "meaning": "乘小巴"
+    },
+    {
+      "word": "by tram",
+      "phonetic": "",
+      "meaning": "乘电车"
+    },
+    {
+      "word": "by MTR/train",
+      "phonetic": "",
+      "meaning": "乘地铁/火车"
+    },
+    {
+      "word": "by Light Rail",
+      "phonetic": "",
+      "meaning": "乘轻轨"
+    },
+    {
+      "word": "by ferry",
+      "phonetic": "",
+      "meaning": "乘渡轮"
+    },
+    {
+      "word": "by taxi",
+      "phonetic": "",
+      "meaning": "乘出租车"
+    }
+  ]
+}
