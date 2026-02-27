@@ -4,6 +4,7 @@ import annie002 from './annie002.json'
 import annie003 from './annie003.json'
 import annie004 from './annie004.json'
 import annie005 from './annie005.json'
+import annie006 from './annie006.json'
 import unit2 from './unit2.json'
 import unit3 from './unit3.json'
 import unit4 from './unit4.json'
@@ -20,6 +21,7 @@ export const wordLists = [
   annie003,
   annie004,
   annie005,
+  annie006,
   unit2,
   unit3,
   unit4,

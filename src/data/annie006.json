@@ -1,0 +1,52 @@
+{
+  "id": "annie006",
+  "name": "Annie006",
+  "description": "职业",
+  "words": [
+    {
+      "word": "a teacher",
+      "phonetic": "",
+      "meaning": "教师"
+    },
+    {
+      "word": "a doctor",
+      "phonetic": "",
+      "meaning": "医生"
+    },
+    {
+      "word": "a nurse",
+      "phonetic": "",
+      "meaning": "护士"
+    },
+    {
+      "word": "a fireman",
+      "phonetic": "",
+      "meaning": "消防员"
+    },
+    {
+      "word": "a policeman/policewoman",
+      "phonetic": "",
+      "meaning": "警察"
+    },
+    {
+      "word": "a postman",
+      "phonetic": "",
+      "meaning": "邮递员"
+    },
+    {
+      "word": "a waiter/waitress",
+      "phonetic": "",
+      "meaning": "服务员"
+    },
+    {
+      "word": "a bus driver/taxi driver",
+      "phonetic": "",
+      "meaning": "公交车司机/出租车司机"
+    },
+    {
+      "word": "a housewife",
+      "phonetic": "",
+      "meaning": "家庭主妇"
+    }
+  ]
+}
