@@ -1,0 +1,37 @@
+{
+  "id": "annie007",
+  "name": "Annie007",
+  "description": "家务劳动",
+  "words": [
+    {
+      "word": "make the bed",
+      "phonetic": "",
+      "meaning": "铺床"
+    },
+    {
+      "word": "sweep the floor",
+      "phonetic": "",
+      "meaning": "扫地"
+    },
+    {
+      "word": "set/clear the table",
+      "phonetic": "",
+      "meaning": "摆放/收拾餐桌"
+    },
+    {
+      "word": "water the plants",
+      "phonetic": "",
+      "meaning": "给植物浇水"
+    },
+    {
+      "word": "feed/walk the dog",
+      "phonetic": "",
+      "meaning": "喂狗/遛狗"
+    },
+    {
+      "word": "hang up the washing/fold the clothes",
+      "phonetic": "",
+      "meaning": "晾衣服/叠衣服"
+    }
+  ]
+}
