@@ -1,0 +1,157 @@
+{
+  "id": "book2unit2",
+  "name": "Book2 Unit 2",
+  "description": "身体部位",
+  "words": [
+    {
+      "word": "know",
+      "phonetic": "",
+      "meaning": "了解"
+    },
+    {
+      "word": "body",
+      "phonetic": "",
+      "meaning": "身体；躯干"
+    },
+    {
+      "word": "rock",
+      "phonetic": "",
+      "meaning": "摇滚乐"
+    },
+    {
+      "word": "song",
+      "phonetic": "",
+      "meaning": "歌曲"
+    },
+    {
+      "word": "touch",
+      "phonetic": "",
+      "meaning": "触摸"
+    },
+    {
+      "word": "head",
+      "phonetic": "",
+      "meaning": "头"
+    },
+    {
+      "word": "eye",
+      "phonetic": "",
+      "meaning": "眼睛"
+    },
+    {
+      "word": "hair",
+      "phonetic": "",
+      "meaning": "头发"
+    },
+    {
+      "word": "ear",
+      "phonetic": "",
+      "meaning": "耳朵"
+    },
+    {
+      "word": "wave",
+      "phonetic": "",
+      "meaning": "摆动"
+    },
+    {
+      "word": "leg",
+      "phonetic": "",
+      "meaning": "腿"
+    },
+    {
+      "word": "foot",
+      "phonetic": "",
+      "meaning": "脚"
+    },
+    {
+      "word": "nose",
+      "phonetic": "",
+      "meaning": "鼻子"
+    },
+    {
+      "word": "face",
+      "phonetic": "",
+      "meaning": "脸"
+    },
+    {
+      "word": "arm",
+      "phonetic": "",
+      "meaning": "手臂"
+    },
+    {
+      "word": "hand",
+      "phonetic": "",
+      "meaning": "手"
+    },
+    {
+      "word": "mouth",
+      "phonetic": "",
+      "meaning": "嘴"
+    },
+    {
+      "word": "tooth",
+      "phonetic": "",
+      "meaning": "牙"
+    },
+    {
+      "word": "prize",
+      "phonetic": "",
+      "meaning": "奖品"
+    },
+    {
+      "word": "bike",
+      "phonetic": "",
+      "meaning": "自行车"
+    },
+    {
+      "word": "race",
+      "phonetic": "",
+      "meaning": "竞赛"
+    },
+    {
+      "word": "stretch",
+      "phonetic": "",
+      "meaning": "伸展"
+    },
+    {
+      "word": "shake",
+      "phonetic": "",
+      "meaning": "摇动"
+    },
+    {
+      "word": "here",
+      "phonetic": "",
+      "meaning": "在这里"
+    },
+    {
+      "word": "Mr",
+      "phonetic": "",
+      "meaning": "先生"
+    },
+    {
+      "word": "back",
+      "phonetic": "",
+      "meaning": "回到原处"
+    },
+    {
+      "word": "worry",
+      "phonetic": "",
+      "meaning": "担心"
+    },
+    {
+      "word": "short",
+      "phonetic": "",
+      "meaning": "短的"
+    },
+    {
+      "word": "small",
+      "phonetic": "",
+      "meaning": "小的"
+    },
+    {
+      "word": "robot",
+      "phonetic": "",
+      "meaning": "机器人"
+    }
+  ]
+}

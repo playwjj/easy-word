@@ -15,6 +15,11 @@ import play from './play.json'
 import family from './family.json'
 import list003001 from './003001.json'
 import book2unit1 from './book2unit1.json'
+import book2unit2 from './book2unit2.json'
+import book2unit3 from './book2unit3.json'
+import book2unit4 from './book2unit4.json'
+import book2unit5 from './book2unit5.json'
+import book2unit6 from './book2unit6.json'
 
 // 导出所有单词列表
 export const wordLists = [
@@ -33,7 +38,12 @@ export const wordLists = [
   play,
   family,
   list003001,
-  book2unit1
+  book2unit1,
+  book2unit2,
+  book2unit3,
+  book2unit4,
+  book2unit5,
+  book2unit6
 ]
 
 // 按ID获取单词列表

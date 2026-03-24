@@ -1,0 +1,157 @@
+{
+  "id": "book2unit5",
+  "name": "Book2 Unit 5",
+  "description": "时间与活动",
+  "words": [
+    {
+      "word": "week",
+      "phonetic": "",
+      "meaning": "周"
+    },
+    {
+      "word": "Monday",
+      "phonetic": "",
+      "meaning": "星期一"
+    },
+    {
+      "word": "Tuesday",
+      "phonetic": "",
+      "meaning": "星期二"
+    },
+    {
+      "word": "Wednesday",
+      "phonetic": "",
+      "meaning": "星期三"
+    },
+    {
+      "word": "Thursday",
+      "phonetic": "",
+      "meaning": "星期四"
+    },
+    {
+      "word": "Friday",
+      "phonetic": "",
+      "meaning": "星期五"
+    },
+    {
+      "word": "Saturday",
+      "phonetic": "",
+      "meaning": "星期六"
+    },
+    {
+      "word": "Sunday",
+      "phonetic": "",
+      "meaning": "星期天"
+    },
+    {
+      "word": "before",
+      "phonetic": "",
+      "meaning": "在……之前"
+    },
+    {
+      "word": "room",
+      "phonetic": "",
+      "meaning": "房间"
+    },
+    {
+      "word": "close",
+      "phonetic": "",
+      "meaning": "关"
+    },
+    {
+      "word": "much",
+      "phonetic": "",
+      "meaning": "多"
+    },
+    {
+      "word": "winter",
+      "phonetic": "",
+      "meaning": "冬天"
+    },
+    {
+      "word": "season",
+      "phonetic": "",
+      "meaning": "季节"
+    },
+    {
+      "word": "drawing",
+      "phonetic": "",
+      "meaning": "图画"
+    },
+    {
+      "word": "cloudy",
+      "phonetic": "",
+      "meaning": "多云的"
+    },
+    {
+      "word": "of course",
+      "phonetic": "",
+      "meaning": "当然"
+    },
+    {
+      "word": "rabbit",
+      "phonetic": "",
+      "meaning": "兔"
+    },
+    {
+      "word": "cat",
+      "phonetic": "",
+      "meaning": "猫"
+    },
+    {
+      "word": "fish",
+      "phonetic": "",
+      "meaning": "鱼"
+    },
+    {
+      "word": "busy",
+      "phonetic": "",
+      "meaning": "忙碌的"
+    },
+    {
+      "word": "every",
+      "phonetic": "",
+      "meaning": "每，每一个"
+    },
+    {
+      "word": "cooking",
+      "phonetic": "",
+      "meaning": "烹饪"
+    },
+    {
+      "word": "cook",
+      "phonetic": "",
+      "meaning": "做饭"
+    },
+    {
+      "word": "Chinese",
+      "phonetic": "",
+      "meaning": "中国的"
+    },
+    {
+      "word": "chess",
+      "phonetic": "",
+      "meaning": "棋"
+    },
+    {
+      "word": "Chinese chess",
+      "phonetic": "",
+      "meaning": "中国象棋"
+    },
+    {
+      "word": "study",
+      "phonetic": "",
+      "meaning": "学习"
+    },
+    {
+      "word": "basketball",
+      "phonetic": "",
+      "meaning": "篮球"
+    },
+    {
+      "word": "activity",
+      "phonetic": "",
+      "meaning": "活动"
+    }
+  ]
+}

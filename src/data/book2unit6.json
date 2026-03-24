@@ -1,0 +1,167 @@
+{
+  "id": "book2unit6",
+  "name": "Book2 Unit 6",
+  "description": "食物",
+  "words": [
+    {
+      "word": "apple",
+      "phonetic": "",
+      "meaning": "苹果"
+    },
+    {
+      "word": "egg",
+      "phonetic": "",
+      "meaning": "鸡蛋"
+    },
+    {
+      "word": "bread",
+      "phonetic": "",
+      "meaning": "面包"
+    },
+    {
+      "word": "milk",
+      "phonetic": "",
+      "meaning": "牛奶"
+    },
+    {
+      "word": "rice",
+      "phonetic": "",
+      "meaning": "米；米饭"
+    },
+    {
+      "word": "tomato",
+      "phonetic": "",
+      "meaning": "西红柿"
+    },
+    {
+      "word": "juice",
+      "phonetic": "",
+      "meaning": "果汁"
+    },
+    {
+      "word": "candy",
+      "phonetic": "",
+      "meaning": "糖果"
+    },
+    {
+      "word": "ice",
+      "phonetic": "",
+      "meaning": "冰"
+    },
+    {
+      "word": "ice cream",
+      "phonetic": "",
+      "meaning": "冰淇淋"
+    },
+    {
+      "word": "cream",
+      "phonetic": "",
+      "meaning": "奶油"
+    },
+    {
+      "word": "chicken",
+      "phonetic": "",
+      "meaning": "鸡肉"
+    },
+    {
+      "word": "noodles",
+      "phonetic": "",
+      "meaning": "（一般用复数）面条"
+    },
+    {
+      "word": "banana",
+      "phonetic": "",
+      "meaning": "香蕉"
+    },
+    {
+      "word": "dinner",
+      "phonetic": "",
+      "meaning": "正餐"
+    },
+    {
+      "word": "parent",
+      "phonetic": "",
+      "meaning": "父，母"
+    },
+    {
+      "word": "dish",
+      "phonetic": "",
+      "meaning": "一道（菜）"
+    },
+    {
+      "word": "meat",
+      "phonetic": "",
+      "meaning": "肉"
+    },
+    {
+      "word": "mushroom",
+      "phonetic": "",
+      "meaning": "蘑菇"
+    },
+    {
+      "word": "potato",
+      "phonetic": "",
+      "meaning": "土豆"
+    },
+    {
+      "word": "eggplant",
+      "phonetic": "",
+      "meaning": "茄子"
+    },
+    {
+      "word": "food",
+      "phonetic": "",
+      "meaning": "食物"
+    },
+    {
+      "word": "amazing",
+      "phonetic": "",
+      "meaning": "令人惊叹的"
+    },
+    {
+      "word": "say",
+      "phonetic": "",
+      "meaning": "说"
+    },
+    {
+      "word": "grape",
+      "phonetic": "",
+      "meaning": "葡萄"
+    },
+    {
+      "word": "vegetable",
+      "phonetic": "",
+      "meaning": "蔬菜"
+    },
+    {
+      "word": "soup",
+      "phonetic": "",
+      "meaning": "汤"
+    },
+    {
+      "word": "drink",
+      "phonetic": "",
+      "meaning": "喝"
+    },
+    {
+      "word": "need",
+      "phonetic": "",
+      "meaning": "需要"
+    },
+    {
+      "word": "oil",
+      "phonetic": "",
+      "meaning": "植物油，食油，油"
+    },
+    {
+      "word": "salt",
+      "phonetic": "",
+      "meaning": "盐"
+    },
+    {
+      "word": "beat",
+      "phonetic": "",
+      "meaning": "搅拌，打"
+    }
+  ]
+}
