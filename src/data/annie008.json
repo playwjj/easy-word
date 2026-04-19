@@ -1,0 +1,62 @@
+{
+  "id": "annie008",
+  "name": "Annie008",
+  "description": "性格与品质",
+  "words": [
+    {
+      "word": "tidy",
+      "phonetic": "",
+      "meaning": "整洁的"
+    },
+    {
+      "word": "untidy",
+      "phonetic": "",
+      "meaning": "不整洁的"
+    },
+    {
+      "word": "hard-working",
+      "phonetic": "",
+      "meaning": "勤奋的"
+    },
+    {
+      "word": "lazy",
+      "phonetic": "",
+      "meaning": "懒惰的"
+    },
+    {
+      "word": "polite",
+      "phonetic": "",
+      "meaning": "礼貌的"
+    },
+    {
+      "word": "rude",
+      "phonetic": "",
+      "meaning": "粗鲁的"
+    },
+    {
+      "word": "honest",
+      "phonetic": "",
+      "meaning": "诚实的"
+    },
+    {
+      "word": "helpful",
+      "phonetic": "",
+      "meaning": "乐于助人的"
+    },
+    {
+      "word": "unhelpful",
+      "phonetic": "",
+      "meaning": "不乐于助人的"
+    },
+    {
+      "word": "impolite",
+      "phonetic": "",
+      "meaning": "不礼貌的"
+    },
+    {
+      "word": "dishonest",
+      "phonetic": "",
+      "meaning": "不诚实的"
+    }
+  ]
+}
