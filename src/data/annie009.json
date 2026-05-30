@@ -1,0 +1,57 @@
+{
+  "id": "annie009",
+  "name": "Annie009",
+  "description": "日常作息",
+  "words": [
+    {
+      "word": "get up",
+      "phonetic": "",
+      "meaning": "起床"
+    },
+    {
+      "word": "brush my teeth",
+      "phonetic": "",
+      "meaning": "刷牙"
+    },
+    {
+      "word": "wash my face",
+      "phonetic": "",
+      "meaning": "洗脸"
+    },
+    {
+      "word": "have breakfast",
+      "phonetic": "",
+      "meaning": "吃早饭"
+    },
+    {
+      "word": "go to school",
+      "phonetic": "",
+      "meaning": "去上学"
+    },
+    {
+      "word": "have lunch",
+      "phonetic": "",
+      "meaning": "吃午饭"
+    },
+    {
+      "word": "do my homework",
+      "phonetic": "",
+      "meaning": "做作业"
+    },
+    {
+      "word": "have dinner",
+      "phonetic": "",
+      "meaning": "吃晚饭"
+    },
+    {
+      "word": "have a bath/shower",
+      "phonetic": "",
+      "meaning": "洗澡"
+    },
+    {
+      "word": "go to bed",
+      "phonetic": "",
+      "meaning": "去睡觉"
+    }
+  ]
+}
