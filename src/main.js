@@ -272,13 +272,36 @@ function checkSpeechSupport() {
   }
 }
 
+// 单词表分组规则（按顺序匹配，最后一条作为兜底分组）
+const NAV_GROUPS = [
+  { title: 'Annie 系列', match: id => /^annie\d+$/.test(id) },
+  { title: 'Book2 Unit 系列', match: id => /^book2unit\d+$/.test(id) },
+  { title: 'Unit 系列', match: id => /^unit\d+$/.test(id) },
+  { title: '其他', match: () => true }
+]
+
+// 将单词表按分组规则归类
+function groupWordLists(lists) {
+  const groups = NAV_GROUPS.map(g => ({ title: g.title, items: [] }))
+  lists.forEach(list => {
+    const index = NAV_GROUPS.findIndex(g => g.match(list.id))
+    groups[index >= 0 ? index : groups.length - 1].items.push(list)
+  })
+  return groups.filter(g => g.items.length > 0)
+}
+
 // 渲染导航菜单
 function renderNavigation() {
   const nav = document.getElementById('word-list-nav')
 
-  const dropdownItems = wordLists.map(list => {
-    return `<div class="dropdown-item" data-list-id="${list.id}">${list.name}</div>`
-  }).join('')
+  const groups = groupWordLists(wordLists)
+
+  const groupsHtml = groups.map(group => `
+    <div class="dropdown-group">
+      <div class="dropdown-group-title">${group.title}</div>
+      ${group.items.map(list => `<div class="dropdown-item" data-list-id="${list.id}">${list.name}</div>`).join('')}
+    </div>
+  `).join('')
 
   nav.innerHTML = `
     <div class="list-selector">
@@ -286,7 +309,13 @@ function renderNavigation() {
         <span class="selector-text">选择单词表</span>
       </button>
       <div class="selector-dropdown">
-        ${dropdownItems}
+        <div class="selector-search">
+          <input type="text" class="selector-search-input" placeholder="搜索单词表..." />
+        </div>
+        <div class="selector-dropdown-list">
+          ${groupsHtml}
+        </div>
+        <div class="selector-no-results" hidden>无匹配结果</div>
       </div>
     </div>
   `
@@ -294,11 +323,43 @@ function renderNavigation() {
   const selector = nav.querySelector('.list-selector')
   const selectorBtn = nav.querySelector('.selector-btn')
   const selectorText = nav.querySelector('.selector-text')
+  const searchInput = nav.querySelector('.selector-search-input')
+  const noResults = nav.querySelector('.selector-no-results')
+
+  // 按关键字过滤下拉列表（按名称或ID匹配，隐藏无匹配项的分组）
+  function filterDropdown(query) {
+    let anyVisible = false
+    nav.querySelectorAll('.dropdown-group').forEach(groupEl => {
+      let groupHasVisible = false
+      groupEl.querySelectorAll('.dropdown-item').forEach(item => {
+        const matches = !query ||
+          item.textContent.toLowerCase().includes(query) ||
+          item.dataset.listId.toLowerCase().includes(query)
+        item.style.display = matches ? '' : 'none'
+        if (matches) groupHasVisible = true
+      })
+      groupEl.style.display = groupHasVisible ? '' : 'none'
+      if (groupHasVisible) anyVisible = true
+    })
+    noResults.hidden = anyVisible
+  }
 
   // 点击按钮切换下拉菜单
   selectorBtn.addEventListener('click', (e) => {
     e.stopPropagation()
+    const willOpen = !selector.classList.contains('open')
     selector.classList.toggle('open')
+    if (willOpen) {
+      searchInput.value = ''
+      filterDropdown('')
+      setTimeout(() => searchInput.focus(), 0)
+    }
+  })
+
+  // 阻止在搜索框内的点击冒泡关闭菜单
+  searchInput.addEventListener('click', (e) => e.stopPropagation())
+  searchInput.addEventListener('input', (e) => {
+    filterDropdown(e.target.value.trim().toLowerCase())
   })
 
   // 点击选项
