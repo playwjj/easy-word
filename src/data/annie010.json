@@ -1,0 +1,42 @@
+{
+  "id": "annie010",
+  "name": "Annie010",
+  "description": "课外活动",
+  "words": [
+    {
+      "word": "have ballet lessons",
+      "phonetic": "",
+      "meaning": "上芭蕾课"
+    },
+    {
+      "word": "have piano lessons",
+      "phonetic": "",
+      "meaning": "上钢琴课"
+    },
+    {
+      "word": "study with my tutor",
+      "phonetic": "",
+      "meaning": "和家教一起学习"
+    },
+    {
+      "word": "visit my grandpa/grandma/grandparents",
+      "phonetic": "",
+      "meaning": "探望爷爷/奶奶/祖父母"
+    },
+    {
+      "word": "go to church",
+      "phonetic": "",
+      "meaning": "去教堂"
+    },
+    {
+      "word": "go to Brownies/Cub Scouts",
+      "phonetic": "",
+      "meaning": "参加幼女童子军/幼狼童子军活动"
+    },
+    {
+      "word": "go to school choir practice",
+      "phonetic": "",
+      "meaning": "参加学校合唱团排练"
+    }
+  ]
+}
