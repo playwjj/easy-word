@@ -1,0 +1,77 @@
+{
+  "id": "annie011",
+  "name": "Annie011",
+  "description": "节日",
+  "words": [
+    {
+      "word": "Chinese New Year",
+      "phonetic": "",
+      "meaning": "春节"
+    },
+    {
+      "word": "go to the flower market",
+      "phonetic": "",
+      "meaning": "去花市"
+    },
+    {
+      "word": "visit relatives",
+      "phonetic": "",
+      "meaning": "拜访亲戚"
+    },
+    {
+      "word": "get red packets",
+      "phonetic": "",
+      "meaning": "收红包"
+    },
+    {
+      "word": "watch fireworks",
+      "phonetic": "",
+      "meaning": "看烟花"
+    },
+    {
+      "word": "eat moon cakes",
+      "phonetic": "",
+      "meaning": "吃月饼"
+    },
+    {
+      "word": "get present",
+      "phonetic": "",
+      "meaning": "收到礼物"
+    },
+    {
+      "word": "Christmas",
+      "phonetic": "",
+      "meaning": "圣诞节"
+    },
+    {
+      "word": "look at the Christmas lights",
+      "phonetic": "",
+      "meaning": "看圣诞灯饰"
+    },
+    {
+      "word": "watch dragon boat races",
+      "phonetic": "",
+      "meaning": "看龙舟比赛"
+    },
+    {
+      "word": "Dragon Boat Festival",
+      "phonetic": "",
+      "meaning": "端午节"
+    },
+    {
+      "word": "Mid-Autumn Festival",
+      "phonetic": "",
+      "meaning": "中秋节"
+    },
+    {
+      "word": "Easter",
+      "phonetic": "",
+      "meaning": "复活节"
+    },
+    {
+      "word": "eat chocolate eggs",
+      "phonetic": "",
+      "meaning": "吃巧克力彩蛋"
+    }
+  ]
+}
