@@ -1,0 +1,22 @@
+{
+  "id": "book3unit1",
+  "name": "Book3 Unit 1",
+  "description": "运动与活动",
+  "words": [
+    { "word": "star", "phonetic": "", "meaning": "明星，名角" },
+    { "word": "ping-pong", "phonetic": "", "meaning": "乒乓球运动" },
+    { "word": "kick", "phonetic": "", "meaning": "踢" },
+    { "word": "band", "phonetic": "", "meaning": "圈，箍，带" },
+    { "word": "very", "phonetic": "", "meaning": "很，非常" },
+    { "word": "fast", "phonetic": "", "meaning": "快地，快速地" },
+    { "word": "sure", "phonetic": "", "meaning": "肯定的，确信的，有把握的" },
+    { "word": "hurt", "phonetic": "", "meaning": "（身体部位）感到疼痛" },
+    { "word": "really", "phonetic": "", "meaning": "真的" },
+    { "word": "wind", "phonetic": "", "meaning": "风" },
+    { "word": "ride", "phonetic": "", "meaning": "骑，骑自行车" },
+    { "word": "report", "phonetic": "", "meaning": "报告，汇报" },
+    { "word": "wheelchair", "phonetic": "", "meaning": "轮椅" },
+    { "word": "far", "phonetic": "", "meaning": "远" },
+    { "word": "from", "phonetic": "", "meaning": "来自" }
+  ]
+}

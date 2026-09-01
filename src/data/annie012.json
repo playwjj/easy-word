@@ -1,0 +1,132 @@
+{
+  "id": "annie012",
+  "name": "Annie012",
+  "description": "四季、天气与衣物",
+  "words": [
+    {
+      "word": "spring",
+      "phonetic": "",
+      "meaning": "春天"
+    },
+    {
+      "word": "summer",
+      "phonetic": "",
+      "meaning": "夏天"
+    },
+    {
+      "word": "autumn",
+      "phonetic": "",
+      "meaning": "秋天"
+    },
+    {
+      "word": "winter",
+      "phonetic": "",
+      "meaning": "冬天"
+    },
+    {
+      "word": "go to the park",
+      "phonetic": "",
+      "meaning": "去公园"
+    },
+    {
+      "word": "go to the beach",
+      "phonetic": "",
+      "meaning": "去海滩"
+    },
+    {
+      "word": "go hiking",
+      "phonetic": "",
+      "meaning": "去远足"
+    },
+    {
+      "word": "eat hotpot",
+      "phonetic": "",
+      "meaning": "吃火锅"
+    },
+    {
+      "word": "sunny",
+      "phonetic": "",
+      "meaning": "晴朗的"
+    },
+    {
+      "word": "dry",
+      "phonetic": "",
+      "meaning": "干燥的"
+    },
+    {
+      "word": "wet",
+      "phonetic": "",
+      "meaning": "潮湿的"
+    },
+    {
+      "word": "foggy",
+      "phonetic": "",
+      "meaning": "有雾的"
+    },
+    {
+      "word": "warm",
+      "phonetic": "",
+      "meaning": "温暖的"
+    },
+    {
+      "word": "hot",
+      "phonetic": "",
+      "meaning": "炎热的"
+    },
+    {
+      "word": "cool",
+      "phonetic": "",
+      "meaning": "凉爽的"
+    },
+    {
+      "word": "cold",
+      "phonetic": "",
+      "meaning": "寒冷的"
+    },
+    {
+      "word": "an umbrella",
+      "phonetic": "",
+      "meaning": "一把雨伞"
+    },
+    {
+      "word": "a cap",
+      "phonetic": "",
+      "meaning": "一顶帽子"
+    },
+    {
+      "word": "a raincoat",
+      "phonetic": "",
+      "meaning": "一件雨衣"
+    },
+    {
+      "word": "boots",
+      "phonetic": "",
+      "meaning": "靴子"
+    },
+    {
+      "word": "a coat",
+      "phonetic": "",
+      "meaning": "一件外套"
+    },
+    {
+      "word": "a vest",
+      "phonetic": "",
+      "meaning": "一件背心"
+    },
+    {
+      "word": "a scarf",
+      "phonetic": "",
+      "meaning": "一条围巾"
+    },
+    {
+      "word": "a sweater",
+      "phonetic": "",
+      "meaning": "一件毛衣"
+    },
+    {
+      "word": "gloves",
+      "phonetic": "",
+      "meaning": "手套"
+    }
+  ]
+}

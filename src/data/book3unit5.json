@@ -1,0 +1,21 @@
+{
+  "id": "book3unit5",
+  "name": "Book3 Unit 5",
+  "description": "形状",
+  "words": [
+    { "word": "shape", "phonetic": "", "meaning": "形，形状" },
+    { "word": "chocolate", "phonetic": "", "meaning": "巧克力糖；巧克力" },
+    { "word": "triangle", "phonetic": "", "meaning": "三角形；三角形物体" },
+    { "word": "circle", "phonetic": "", "meaning": "圆（形）" },
+    { "word": "rectangle", "phonetic": "", "meaning": "长方形，矩形" },
+    { "word": "square", "phonetic": "", "meaning": "正方形，四方形" },
+    { "word": "into", "phonetic": "", "meaning": "进入，到……里面" },
+    { "word": "tummy", "phonetic": "", "meaning": "肚子" },
+    { "word": "yummy", "phonetic": "", "meaning": "美味的" },
+    { "word": "wheel", "phonetic": "", "meaning": "车轮" },
+    { "word": "another", "phonetic": "", "meaning": "另一，又一" },
+    { "word": "a lot", "phonetic": "", "meaning": "大量，许多" },
+    { "word": "its", "phonetic": "", "meaning": "它的" },
+    { "word": "line", "phonetic": "", "meaning": "线，线条" }
+  ]
+}

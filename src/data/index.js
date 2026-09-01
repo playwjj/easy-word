@@ -10,6 +10,7 @@ import annie008 from './annie008.json'
 import annie009 from './annie009.json'
 import annie010 from './annie010.json'
 import annie011 from './annie011.json'
+import annie012 from './annie012.json'
 import unit2 from './unit2.json'
 import unit3 from './unit3.json'
 import unit4 from './unit4.json'
@@ -24,6 +25,12 @@ import book2unit3 from './book2unit3.json'
 import book2unit4 from './book2unit4.json'
 import book2unit5 from './book2unit5.json'
 import book2unit6 from './book2unit6.json'
+import book3unit1 from './book3unit1.json'
+import book3unit2 from './book3unit2.json'
+import book3unit3 from './book3unit3.json'
+import book3unit4 from './book3unit4.json'
+import book3unit5 from './book3unit5.json'
+import book3unit6 from './book3unit6.json'
 
 // 导出所有单词列表
 export const wordLists = [
@@ -38,6 +45,7 @@ export const wordLists = [
   annie009,
   annie010,
   annie011,
+  annie012,
   unit2,
   unit3,
   unit4,
@@ -51,7 +59,13 @@ export const wordLists = [
   book2unit3,
   book2unit4,
   book2unit5,
-  book2unit6
+  book2unit6,
+  book3unit1,
+  book3unit2,
+  book3unit3,
+  book3unit4,
+  book3unit5,
+  book3unit6
 ]
 
 // 按ID获取单词列表
