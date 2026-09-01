@@ -276,6 +276,7 @@ function checkSpeechSupport() {
 const NAV_GROUPS = [
   { title: 'Annie 系列', match: id => /^annie\d+$/.test(id) },
   { title: 'Book2 Unit 系列', match: id => /^book2unit\d+$/.test(id) },
+  { title: 'Book3 Unit 系列', match: id => /^book3unit\d+$/.test(id) },
   { title: 'Unit 系列', match: id => /^unit\d+$/.test(id) },
   { title: '其他', match: () => true }
 ]
