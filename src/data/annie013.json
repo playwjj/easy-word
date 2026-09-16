@@ -1,0 +1,52 @@
+{
+  "id": "annie013",
+  "name": "Annie013",
+  "description": "星期、运动与乐器",
+  "words": [    
+    {
+      "word": "play badminton",
+      "phonetic": "",
+      "meaning": "打羽毛球"
+    },
+    {
+      "word": "play basketball",
+      "phonetic": "",
+      "meaning": "打篮球"
+    },
+    {
+      "word": "play football",
+      "phonetic": "",
+      "meaning": "踢足球"
+    },
+    {
+      "word": "play table tennis",
+      "phonetic": "",
+      "meaning": "打乒乓球"
+    },
+    {
+      "word": "play the guitar",
+      "phonetic": "",
+      "meaning": "弹吉他"
+    },
+    {
+      "word": "play the recorder",
+      "phonetic": "",
+      "meaning": "吹竖笛"
+    },
+    {
+      "word": "play the piano",
+      "phonetic": "",
+      "meaning": "弹钢琴"
+    },
+    {
+      "word": "play the violin",
+      "phonetic": "",
+      "meaning": "拉小提琴"
+    },
+    {
+      "word": "play Chinese chess",
+      "phonetic": "",
+      "meaning": "下中国象棋"
+    }
+  ]
+}
