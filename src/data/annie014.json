@@ -1,0 +1,102 @@
+{
+  "id": "annie014",
+  "name": "Annie014",
+  "description": "学校活动与月份",
+  "words": [
+    {
+      "word": "Sports Day",
+      "phonetic": "",
+      "meaning": "运动会"
+    },
+    {
+      "word": "Open Day",
+      "phonetic": "",
+      "meaning": "开放日"
+    },
+    {
+      "word": "Parents' Day",
+      "phonetic": "",
+      "meaning": "家长日"
+    },
+    {
+      "word": "Test Week",
+      "phonetic": "",
+      "meaning": "考试周（小测周）"
+    },
+    {
+      "word": "Exam Week",
+      "phonetic": "",
+      "meaning": "考试周"
+    },
+    {
+      "word": "the school picnic",
+      "phonetic": "",
+      "meaning": "学校野餐"
+    },
+    {
+      "word": "English Camp",
+      "phonetic": "",
+      "meaning": "英语营"
+    },
+    {
+      "word": "January",
+      "phonetic": "",
+      "meaning": "一月"
+    },
+    {
+      "word": "February",
+      "phonetic": "",
+      "meaning": "二月"
+    },
+    {
+      "word": "March",
+      "phonetic": "",
+      "meaning": "三月"
+    },
+    {
+      "word": "April",
+      "phonetic": "",
+      "meaning": "四月"
+    },
+    {
+      "word": "May",
+      "phonetic": "",
+      "meaning": "五月"
+    },
+    {
+      "word": "June",
+      "phonetic": "",
+      "meaning": "六月"
+    },
+    {
+      "word": "July",
+      "phonetic": "",
+      "meaning": "七月"
+    },
+    {
+      "word": "August",
+      "phonetic": "",
+      "meaning": "八月"
+    },
+    {
+      "word": "September",
+      "phonetic": "",
+      "meaning": "九月"
+    },
+    {
+      "word": "October",
+      "phonetic": "",
+      "meaning": "十月"
+    },
+    {
+      "word": "November",
+      "phonetic": "",
+      "meaning": "十一月"
+    },
+    {
+      "word": "December",
+      "phonetic": "",
+      "meaning": "十二月"
+    }
+  ]
+}
