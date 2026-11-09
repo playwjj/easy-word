@@ -1,0 +1,127 @@
+{
+  "id": "annie015",
+  "name": "Annie015",
+  "description": "月份、序数词与节日",
+  "words": [
+    {
+      "word": "January",
+      "phonetic": "",
+      "meaning": "一月"
+    },
+    {
+      "word": "February",
+      "phonetic": "",
+      "meaning": "二月"
+    },
+    {
+      "word": "March",
+      "phonetic": "",
+      "meaning": "三月"
+    },
+    {
+      "word": "April",
+      "phonetic": "",
+      "meaning": "四月"
+    },
+    {
+      "word": "May",
+      "phonetic": "",
+      "meaning": "五月"
+    },
+    {
+      "word": "June",
+      "phonetic": "",
+      "meaning": "六月"
+    },
+    {
+      "word": "July",
+      "phonetic": "",
+      "meaning": "七月"
+    },
+    {
+      "word": "August",
+      "phonetic": "",
+      "meaning": "八月"
+    },
+    {
+      "word": "September",
+      "phonetic": "",
+      "meaning": "九月"
+    },
+    {
+      "word": "October",
+      "phonetic": "",
+      "meaning": "十月"
+    },
+    {
+      "word": "November",
+      "phonetic": "",
+      "meaning": "十一月"
+    },
+    {
+      "word": "December",
+      "phonetic": "",
+      "meaning": "十二月"
+    },
+    {
+      "word": "first",
+      "phonetic": "",
+      "meaning": "第一"
+    },
+    {
+      "word": "second",
+      "phonetic": "",
+      "meaning": "第二"
+    },
+    {
+      "word": "third",
+      "phonetic": "",
+      "meaning": "第三"
+    },
+    {
+      "word": "fifth",
+      "phonetic": "",
+      "meaning": "第五"
+    },
+    {
+      "word": "eighth",
+      "phonetic": "",
+      "meaning": "第八"
+    },
+    {
+      "word": "ninth",
+      "phonetic": "",
+      "meaning": "第九"
+    },
+    {
+      "word": "twelfth",
+      "phonetic": "",
+      "meaning": "第十二"
+    },
+    {
+      "word": "twentieth",
+      "phonetic": "",
+      "meaning": "第二十"
+    },
+    {
+      "word": "Sports Day",
+      "phonetic": "",
+      "meaning": "运动会"
+    },
+    {
+      "word": "Open Day",
+      "phonetic": "",
+      "meaning": "开放日"
+    },
+    {
+      "word": "National Day",
+      "phonetic": "",
+      "meaning": "国庆节"
+    },
+    {
+      "word": "Christmas Day",
+      "phonetic": "",
+      "meaning": "圣诞节"
+    }
+  ]
+}
