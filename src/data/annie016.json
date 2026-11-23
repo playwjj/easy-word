@@ -1,0 +1,97 @@
+{
+  "id": "annie016",
+  "name": "Annie016",
+  "description": "商店与休闲场所",
+  "words": [
+    {
+      "word": "a book shop",
+      "phonetic": "",
+      "meaning": "书店"
+    },
+    {
+      "word": "buy a comic",
+      "phonetic": "",
+      "meaning": "买漫画书"
+    },
+    {
+      "word": "a clothes shop",
+      "phonetic": "",
+      "meaning": "服装店"
+    },
+    {
+      "word": "buy jeans",
+      "phonetic": "",
+      "meaning": "买牛仔裤"
+    },
+    {
+      "word": "a sportswear shop",
+      "phonetic": "",
+      "meaning": "运动服装店"
+    },
+    {
+      "word": "buy trainers",
+      "phonetic": "",
+      "meaning": "买运动鞋"
+    },
+    {
+      "word": "a gift shop",
+      "phonetic": "",
+      "meaning": "礼品店"
+    },
+    {
+      "word": "buy a card",
+      "phonetic": "",
+      "meaning": "买卡片"
+    },
+    {
+      "word": "a sweet shop",
+      "phonetic": "",
+      "meaning": "糖果店"
+    },
+    {
+      "word": "buy sweets and chocolate",
+      "phonetic": "",
+      "meaning": "买糖果和巧克力"
+    },
+    {
+      "word": "a cinema",
+      "phonetic": "",
+      "meaning": "电影院"
+    },
+    {
+      "word": "watch a film",
+      "phonetic": "",
+      "meaning": "看电影"
+    },
+    {
+      "word": "a cafe",
+      "phonetic": "",
+      "meaning": "咖啡馆"
+    },
+    {
+      "word": "have afternoon tea",
+      "phonetic": "",
+      "meaning": "喝下午茶"
+    },
+    {
+      "word": "a restaurant",
+      "phonetic": "",
+      "meaning": "餐馆"
+    },
+    {
+      "word": "eat dim sum",
+      "phonetic": "",
+      "meaning": "吃点心"
+    },
+    {
+      "word": "a hotel",
+      "phonetic": "",
+      "meaning": "酒店"
+    },
+    {
+      "word": "have a buffet lunch",
+      "phonetic": "",
+      "meaning": "吃自助午餐"
+    }
+  ]
+}
